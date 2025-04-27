@@ -1,17 +1,17 @@
 # Amazon Product Reviews Sentiment Analysis
 
-This project aims to predict the sentiment (positive or negative) of Amazon product reviews using Natural Language Processing (NLP) and machine learning techniques.
+This project predicts the sentiment (positive or negative) of Amazon product reviews using Natural Language Processing (NLP) and machine learning techniques.
 
 ## Project Description
 
-This project performs sentiment analysis on Amazon product reviews. The reviews are processed to remove stop words, and TF-IDF features are used for model training. The model used is Logistic Regression. We also generate WordClouds to visualize the most frequent words in positive and negative reviews.
+The sentiment analysis project involves cleaning and preprocessing Amazon product reviews, extracting features using TF-IDF Vectorizer, training a machine learning model (Random Forest), and generating WordClouds to visualize frequent words in positive and negative reviews.
 
 ## Features
 
-- Data cleaning using NLTK
-- Text feature extraction using TF-IDF Vectorizer
-- Sentiment classification using Logistic Regression
-- WordCloud generation for review visualization
+- **Data Cleaning**: Uses NLTK to remove stop words and unwanted characters.
+- **Feature Extraction**: Uses TF-IDF Vectorizer to convert text data into numerical features.
+- **Model**: Trains a Random Forest Classifier for sentiment prediction.
+- **Visualization**: Generates WordClouds for positive and negative reviews.
 
 ## How to Run the Project
 
@@ -28,11 +28,11 @@ This project performs sentiment analysis on Amazon product reviews. The reviews 
 
 ## Future Improvements
 
-- **Data Preprocessing**: Enhance text cleaning by removing punctuation, special characters, and lemmatizing words.
-- **Model Tuning**: Try advanced algorithms like Random Forest, XGBoost, or deep learning models for better accuracy.
-- **Hyperparameter Optimization**: Use grid search or random search to fine-tune hyperparameters for better performance.
-- **Cross-Validation**: Implement k-fold cross-validation for a more robust evaluation.
-- **Evaluation Metrics**: Explore additional metrics like ROC-AUC for a better evaluation of model performance.
+- **Data Preprocessing**: Further enhance text cleaning by removing punctuation, special characters, and using lemmatization.
+- **Model Enhancement**: Explore other models such as XGBoost or deep learning models like LSTM for improved accuracy.
+- **Hyperparameter Tuning**: Use techniques like grid search or random search to find optimal model hyperparameters.
+- **Cross-Validation**: Implement k-fold cross-validation for better model performance.
+- **Evaluation Metrics**: Explore metrics like ROC-AUC for deeper evaluation of the model.
 
 ## License
 
